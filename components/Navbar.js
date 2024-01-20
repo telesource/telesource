@@ -111,10 +111,10 @@ export default function Navbar() {
 
   const desktopMenuItems = (
     <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
-      <Link href="/" passHref><Button color="inherit" className="linkButton">Home</Button></Link>
-      <Link href="/about" passHref><Button color="inherit" className="linkButton">About</Button></Link>
+      <Link href="/" passHref><Button color="inherit" style={{backgroundColor: '#FFF', color: '#000', margin: 'auto 4px'}}>Home</Button></Link>
+      <Link href="/about" passHref><Button color="inherit" style={{backgroundColor: '#FFF', color: '#000', margin: 'auto 4px'}}>About</Button></Link>
       <Button 
-        color="inherit" className="linkButton" 
+        color="inherit" style={{backgroundColor: '#FFF', color: '#000', margin: 'auto 4px'}} 
         endIcon={<ArrowDropDownIcon />} 
         onClick={handleServiceMenuClick}
         >
@@ -131,7 +131,7 @@ export default function Navbar() {
         <Link href="/digital-media-solutions" passHref><MenuItem onClick={handleClose}>Digital Media Solutions</MenuItem></Link>
         <Link href="/conversational-gen-ai" passHref><MenuItem onClick={handleClose}>Conversational Gen-AI</MenuItem></Link>
       </Menu>
-      <Button color="inherit" className="linkButton" endIcon={<ArrowDropDownIcon />} onClick={handleProductMenuClick}>
+      <Button color="inherit" style={{backgroundColor: '#FFF', color: '#000', margin: 'auto 4px'}} endIcon={<ArrowDropDownIcon />} onClick={handleProductMenuClick}>
         Products
       </Button>
       <Menu
@@ -147,7 +147,7 @@ export default function Navbar() {
         <Link href="/whatsapp-solutions" passHref><MenuItem onClick={handleClose}>WhatsApp Solutions</MenuItem></Link>
         <Link href="/chatbot" passHref><MenuItem onClick={handleClose}>Chat Bot</MenuItem></Link>
       </Menu>
-      <Button color="inherit" className="linkButton" endIcon={<ArrowDropDownIcon />} onClick={handleBusinessMenuClick}>
+      <Button color="inherit" style={{backgroundColor: '#FFF', color: '#000', margin: 'auto 4px'}} endIcon={<ArrowDropDownIcon />} onClick={handleBusinessMenuClick}>
         Business
       </Button>
       <Menu
@@ -170,9 +170,9 @@ export default function Navbar() {
         <Link href="/real-estate-and-infrastructure" passHref><MenuItem onClick={handleClose}>Real Estate & Infrastructure</MenuItem></Link>
         <Link href="/automotive" passHref><MenuItem onClick={handleClose}>Automotive</MenuItem></Link>
       </Menu>
-      <Link href="/customer-stories" passHref><Button color="inherit" className="linkButton">Customer Stories</Button></Link>
-      <Link href="/contact-us" passHref><Button color="inherit" className="linkButton">Contact Us</Button></Link>
-      <Link href="/contact-us" passHref><Button color="inherit" className="linkButtonBook" variant="outlined" sx={{ ml: 2 }}>Book A Demo</Button></Link>
+      <Link href="/customer-stories" passHref><Button color="inherit" style={{backgroundColor: '#FFF', color: '#000', margin: 'auto 4px'}}>Customer Stories</Button></Link>
+      <Link href="/contact-us" passHref><Button color="inherit" style={{backgroundColor: '#FFF', color: '#000', margin: 'auto 4px'}}>Contact Us</Button></Link>
+      <Link href="/contact-us" passHref><Button color="inherit" style={{backgroundColor: '#ec4a2f', color: '#FFF'}} variant="outlined" sx={{ ml: 2 }}>Book A Demo</Button></Link>
     </Box>
   );
 
@@ -192,7 +192,7 @@ export default function Navbar() {
           </Link>
         </Box>
         {isMobile ? (
-          <IconButton edge="start" color="inherit" className="linkButton" aria-label="menu" onClick={handleMobileMenuOpen}>
+          <IconButton edge="start" color="inherit" style={{backgroundColor: '#FFF', color: '#000', margin: 'auto 4px'}} aria-label="menu" onClick={handleMobileMenuOpen}>
             <MenuIcon />
           </IconButton>
         ) : desktopMenuItems}
