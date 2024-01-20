@@ -6,7 +6,6 @@ import ExpandLess from '@mui/icons-material/ExpandLess';
 import ExpandMore from '@mui/icons-material/ExpandMore';
 import Link from 'next/link';
 import Image from 'next/image';
-import styles from '../styles/NavbarStyles.module.css'; // Import as a module
 
 
 export default function Navbar() {
@@ -112,10 +111,10 @@ export default function Navbar() {
 
   const desktopMenuItems = (
     <Box sx={{ flexGrow: 1, display: 'flex', justifyContent: 'flex-end', alignItems: 'center' }}>
-      <Link href="/" passHref><Button color="inherit" className={styles.linkButton}>Home</Button></Link>
-      <Link href="/about" passHref><Button color="inherit" className={styles.linkButton}>About</Button></Link>
+      <Link href="/" passHref><Button color="inherit" className="linkButton">Home</Button></Link>
+      <Link href="/about" passHref><Button color="inherit" className="linkButton">About</Button></Link>
       <Button 
-        color="inherit" className={styles.linkButton} 
+        color="inherit" className="linkButton" 
         endIcon={<ArrowDropDownIcon />} 
         onClick={handleServiceMenuClick}
         >
@@ -132,7 +131,7 @@ export default function Navbar() {
         <Link href="/digital-media-solutions" passHref><MenuItem onClick={handleClose}>Digital Media Solutions</MenuItem></Link>
         <Link href="/conversational-gen-ai" passHref><MenuItem onClick={handleClose}>Conversational Gen-AI</MenuItem></Link>
       </Menu>
-      <Button color="inherit" className={styles.linkButton} endIcon={<ArrowDropDownIcon />} onClick={handleProductMenuClick}>
+      <Button color="inherit" className="linkButton" endIcon={<ArrowDropDownIcon />} onClick={handleProductMenuClick}>
         Products
       </Button>
       <Menu
@@ -148,7 +147,7 @@ export default function Navbar() {
         <Link href="/whatsapp-solutions" passHref><MenuItem onClick={handleClose}>WhatsApp Solutions</MenuItem></Link>
         <Link href="/chatbot" passHref><MenuItem onClick={handleClose}>Chat Bot</MenuItem></Link>
       </Menu>
-      <Button color="inherit" className={styles.linkButton} endIcon={<ArrowDropDownIcon />} onClick={handleBusinessMenuClick}>
+      <Button color="inherit" className="linkButton" endIcon={<ArrowDropDownIcon />} onClick={handleBusinessMenuClick}>
         Business
       </Button>
       <Menu
@@ -171,21 +170,21 @@ export default function Navbar() {
         <Link href="/real-estate-and-infrastructure" passHref><MenuItem onClick={handleClose}>Real Estate & Infrastructure</MenuItem></Link>
         <Link href="/automotive" passHref><MenuItem onClick={handleClose}>Automotive</MenuItem></Link>
       </Menu>
-      <Link href="/customer-stories" passHref><Button color="inherit" className={styles.linkButton}>Customer Stories</Button></Link>
-      <Link href="/contact-us" passHref><Button color="inherit" className={styles.linkButton}>Contact Us</Button></Link>
-      <Link href="/contact-us" passHref><Button color="inherit" className={styles.linkButtonBook} variant="outlined" sx={{ ml: 2 }}>Book A Demo</Button></Link>
+      <Link href="/customer-stories" passHref><Button color="inherit" className="linkButton">Customer Stories</Button></Link>
+      <Link href="/contact-us" passHref><Button color="inherit" className="linkButton">Contact Us</Button></Link>
+      <Link href="/contact-us" passHref><Button color="inherit" className="linkButtonBook" variant="outlined" sx={{ ml: 2 }}>Book A Demo</Button></Link>
     </Box>
   );
 
   return (
-    <AppBar position="static" className={styles.navbarBackground}>
+    <AppBar position="static" className="navbarBackground">
       <Toolbar>
         <Box sx={{ flexGrow: 1 }}>
           {/* Replace with your logo */}
           <Link href="/">
           <Image 
             src="/images/telesourcenowlogo-black.png" // Route of the image file
-            alt="Description of the image"
+            alt="TelesourceNow Logo"
             width={100}  // Desired width
             height={100} // Desired height
             layout="responsive" // Makes the image responsive
@@ -193,7 +192,7 @@ export default function Navbar() {
           </Link>
         </Box>
         {isMobile ? (
-          <IconButton edge="start" color="inherit" className={styles.linkButton} aria-label="menu" onClick={handleMobileMenuOpen}>
+          <IconButton edge="start" color="inherit" className="linkButton" aria-label="menu" onClick={handleMobileMenuOpen}>
             <MenuIcon />
           </IconButton>
         ) : desktopMenuItems}

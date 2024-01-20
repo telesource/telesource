@@ -10,16 +10,21 @@ export default function About() {
     <Box p={isSmallScreen ? 2 : 4}>
       <Grid container spacing={4} alignItems="center">
         <Grid item xs={12} md={6}>
-          <Typography variant="h1" gutterBottom>About Us</Typography>
-          <Typography>
+          <h1>About Us</h1>
+          <h2>WE ARE DIFFERENT</h2>
+          <p>
             Welcome to TelesourceNow we are global digital business services provider unfolding 
             future with limitless possibilities.
-          </Typography>
-          <Typography>
+          </p>
+          <p>
             We deliver the most advanced tech enabled, digitally powered business solutions to help the world’s 
             best brands streamline their businesses in meaningful & sustainable ways to achieve businesses goal.
 
-          </Typography>
+          </p>
+          <p>
+          Our commitment to excellence is evident in every facet, making us the catalyst for businesses embracing 
+          a future defined communication by AI innovation and unparalleled success
+          </p>
           {/* Add more text or other elements as needed */}
         </Grid>
         <Grid item xs={12} md={6}>

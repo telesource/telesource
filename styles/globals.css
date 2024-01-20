@@ -45,3 +45,81 @@ a {
   background-color: #6837f5;
   color: #FFFFFF;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+
+}
+
+h1 {
+  font-size: 25px;
+  padding-top: 8px;
+  padding-bottom: 4px;
+  color: #6837f5;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 20px;
+  padding-bottom: 8px;
+  color: #ec4a2f;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h4 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 18px;
+}
+
+
+/* The same styles as before */
+.navbarBackground {
+  background-color: white;
+}
+
+.dropdownMenu {
+  background-color: orange;
+  color: white;
+}
+
+.dropdownItem {
+  color: white;
+}
+
+.linkButton {
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #000 !important; 
+  background-color: #FFF;
+  margin: auto 2px;
+  transition: .2 sec ease-in-out;
+}
+
+.linkButton:hover,
+.linkButton:focus {
+  color: #FFF !important; 
+  background-color: #6837f5;
+  margin: auto 2px;
+}
+
+.linkButtonBook {
+  color: #FFF; 
+  background-color: #6837f5;
+}
+
+.linkButtonBook:hover {
+  color: #FFF; 
+  background-color: #ec4a2f;
+}
