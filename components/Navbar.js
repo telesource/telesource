@@ -177,7 +177,7 @@ export default function Navbar() {
   );
 
   return (
-    <AppBar position="static" className="navbarBackground">
+    <AppBar position="static" style={{  backgroundColor: '#FFFFFF'}}>
       <Toolbar>
         <Box sx={{ flexGrow: 1 }}>
           {/* Replace with your logo */}
