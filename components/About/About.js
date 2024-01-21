@@ -12,25 +12,24 @@ export default function About() {
         <Grid item xs={12} md={6}>
           <h1>About Us</h1>
           <h2>WE ARE DIFFERENT</h2>
-          <p>
-            Welcome to TelesourceNow we are global digital business services provider unfolding 
-            future with limitless possibilities.
+          <p style={{ paddingBottom: '15px', paddingTop: '15px'}}>
+          Welcome to TelesourceNow, a provider of business services that is shaping the future with boundless possibilities.
           </p>
-          <p>
-            We deliver the most advanced tech enabled, digitally powered business solutions to help the world’s 
-            best brands streamline their businesses in meaningful & sustainable ways to achieve businesses goal.
+          <p style={{ paddingBottom: '15px'}}>
+          We offer cutting edge technology enabled solutions to empower the worlds brands, in optimizing their 
+          operations in sustainable ways all with the aim of achieving their business objectives.
 
           </p>
-          <p>
-          Our commitment to excellence is evident in every facet, making us the catalyst for businesses embracing 
-          a future defined communication by AI innovation and unparalleled success
+          <p style={{ paddingBottom: '15px'}}>
+          Our dedication to excellence permeates every aspect of our work positioning us as a driving force, for 
+          businesses embracing a future characterized by AI innovation and unprecedented accomplishments.
           </p>
           {/* Add more text or other elements as needed */}
         </Grid>
         <Grid item xs={12} md={6}>
         <div>
         <Image 
-            src="/images/banner-1.jpg" // Route of the image file
+            src="/images/home-about.jpg" // Route of the image file
             alt="Description of the image"
             width={100}  // Desired width
             height={100} // Desired height

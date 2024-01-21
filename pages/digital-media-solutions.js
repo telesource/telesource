@@ -28,8 +28,8 @@ export default function DigitalMediaSolutions() {
           <Grid item xs={12} md={6}>
             <div>
               <Image 
-                src="/images/banner-1.jpg" // Route of the image file
-                alt="Description of the image"
+                src="/images/digitalmedia.jpg" // Route of the image file
+                alt="digitalmedia"
                 width={500}  // Adjust width as needed
                 height={300} // Adjust height as needed
                 layout="responsive" // Makes the image responsive

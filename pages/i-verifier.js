@@ -16,22 +16,21 @@ export default function IVerifier() {
         <Grid container spacing={4} alignItems="center">
           <Grid item xs={12} md={6}>
             <h1 gutterBottom>I-VERIFIER</h1>
-            <h2>Solution for instant verification</h2>
+            <h2>Instant Verification Solution</h2>
             <p>
-            I-Verifier is an intelligent solution that help in confirming the lead authenticity and ensure's that 
-            the leads generated are genuine and trustworthy. This solutions brings more efficiency for the marketers 
-            by narrowing their target funnel.
+            I Verifier is a tool that assists in verifying the authenticity of leads and ensures that the generated 
+            leads are genuine and reliable. This solution enhances marketers efficiency by narrowing down their target audience.
             </p>
           </Grid>
           <Grid item xs={12} md={6}>
             <div>
-              <Image 
-                src="/images/banner-1.jpg" // Route of the image file
-                alt="Description of the image"
-                width={500}  // Adjust width as needed
-                height={300} // Adjust height as needed
-                layout="responsive" // Makes the image responsive
-              />
+            <Image 
+            src="/images/i-Verifier.jpeg" // Route of the image file
+            alt="i-Verifier"
+            width={100}  // Desired width
+            height={100} // Desired height
+            layout="responsive" // Makes the image responsive
+            />
             </div>
           </Grid>
         </Grid>

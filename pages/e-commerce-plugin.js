@@ -16,22 +16,21 @@ export default function EcommercePlugIn() {
         <Grid container spacing={4} alignItems="center">
           <Grid item xs={12} md={6}>
             <h1 gutterBottom>E-Commerce Plugin</h1>
-            <h2>Customisable E-Commerce plugin</h2>
-            <p>
-            E-Commerce plugin is a customisable WordPress plugin that adds e-commerce functionality to your WordPress 
-            website so you can have an online store. With just a few clicks, your WordPress website turns into a 
-            fully-functional e-commerce website.
-            </p>
+            <p variant='p'>
+          E Commerce Plugin is a versatile WordPress plugin that allows you to customize and enhance your WordPress 
+          website with e commerce capabilities. By clicking a buttons your WordPress site can transform into a complete 
+          online store providing you with all the functionality you need for successful online selling.
+          </p>
           </Grid>
           <Grid item xs={12} md={6}>
             <div>
-              <Image 
-                src="/images/banner-1.jpg" // Route of the image file
-                alt="Description of the image"
-                width={500}  // Adjust width as needed
-                height={300} // Adjust height as needed
-                layout="responsive" // Makes the image responsive
-              />
+            <Image 
+            src="/images/Ecommerce plugin.png" // Route of the image file
+            alt="Ecommerce Plugin"
+            width={100}  // Desired width
+            height={100} // Desired height
+            layout="responsive" // Makes the image responsive
+            />
             </div>
           </Grid>
         </Grid>

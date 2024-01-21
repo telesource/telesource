@@ -15,21 +15,21 @@ export default function DataMiner() {
       <Box p={isSmallScreen ? 2 : 4}>
         <Grid container spacing={4} alignItems="center">
           <Grid item xs={12} md={6}>
-            <h1 gutterBottom>Data Miner</h1>
-            <h2>Data analytics and visualisation</h2>
-            <p>
-            A Platform that ensures your data not get waste in any sense, This platform bundle the high volume excel 
-            files with multiple header and enable the user to fetch the analytics out of the master file that add more value for the user.
+            <h1 gutterBottom>ATA MINER</h1>
+            <h2>Utilizing Data Analytics and Visualization</h2>
+            <p variant='p'>
+              Introducing a platform that guarantees your data is utilized efficiently. This platform combines Excel 
+              files featuring headers and empowers users to extract valuable analytics from the master file. It adds value, for the user.
             </p>
           </Grid>
           <Grid item xs={12} md={6}>
             <div>
               <Image 
-                src="/images/banner-1.jpg" // Route of the image file
-                alt="Description of the image"
-                width={500}  // Adjust width as needed
-                height={300} // Adjust height as needed
-                layout="responsive" // Makes the image responsive
+              src="/images/Data Mining.jpeg" // Route of the image file
+              alt="Data Mining"
+              width={100}  // Desired width
+              height={100} // Desired height
+              layout="responsive" // Makes the image responsive
               />
             </div>
           </Grid>

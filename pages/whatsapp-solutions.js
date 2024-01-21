@@ -16,22 +16,21 @@ export default function WhatsappSolutions() {
         <Grid container spacing={4} alignItems="center">
           <Grid item xs={12} md={6}>
             <h1 gutterBottom>WhatsApp Solutions</h1>
-            <h2>A WhatsApp Marketing solution</h2>
-            <p>
-            A WhatsApp Marketing solution, helps brands reach an enormous audience, build strong relationships with 
-            customers, and increase sales. Automate Messages via Integration and Enable Multi-Agent Live Chat for 
-            Customer Support.
-            </p>
+            <p variant='p'>
+          Discover a WhatsApp marketing solution that enables businesses to connect with an audience, foster strong 
+          customer relationships and boost sales. Streamline message automation, through integration and empower agent 
+          live chats, for efficient customer support.
+          </p>
           </Grid>
           <Grid item xs={12} md={6}>
             <div>
-              <Image 
-                src="/images/banner-1.jpg" // Route of the image file
-                alt="Description of the image"
-                width={500}  // Adjust width as needed
-                height={300} // Adjust height as needed
-                layout="responsive" // Makes the image responsive
-              />
+            <Image 
+            src="/images/Whatssap.png" // Route of the image file
+            alt="Whatssap"
+            width={100}  // Desired width
+            height={100} // Desired height
+            layout="responsive" // Makes the image responsive
+            />
             </div>
           </Grid>
         </Grid>

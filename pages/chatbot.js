@@ -15,23 +15,22 @@ export default function ChatBot() {
       <Box p={isSmallScreen ? 2 : 4}>
         <Grid container spacing={4} alignItems="center">
           <Grid item xs={12} md={6}>
-            <h1 gutterBottom>Chat Bot</h1>
-            <h2>Design your own chatbot flow</h2>
-            <p>
-            Design your own chatbot flows! Engage customers, Collect payment on your WhatsApp seamlessly. 
-            Make conversation workflows more efficient and serve customers. Our chatbots are simple and easy 
-            to use to engage your customers and prospects around the clock.
-            </p>
+            <h1 gutterBottom>Create Your Own Chatbot Flow</h1>
+            <p variant='p'>
+          Craft unique chatbot flows to enhance customer engagement and streamline conversations. Seamlessly collect 
+          payments, through WhatsApp. Provide round the clock assistance to your customers and prospects. Our user 
+          friendly chatbots are designed for efficiency making it effortless to interact with your audience at any time.
+          </p>
           </Grid>
           <Grid item xs={12} md={6}>
             <div>
-              <Image 
-                src="/images/banner-1.jpg" // Route of the image file
-                alt="Description of the image"
-                width={500}  // Adjust width as needed
-                height={300} // Adjust height as needed
-                layout="responsive" // Makes the image responsive
-              />
+            <Image 
+            src="/images/Chatbot.jpeg" // Route of the image file
+            alt="Chatbot"
+            width={100}  // Desired width
+            height={100} // Desired height
+            layout="responsive" // Makes the image responsive
+            />
             </div>
           </Grid>
         </Grid>
