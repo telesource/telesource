@@ -18,7 +18,6 @@ export default function About() {
           <p style={{ paddingBottom: '15px'}}>
           We offer cutting edge technology enabled solutions to empower the worlds brands, in optimizing their 
           operations in sustainable ways all with the aim of achieving their business objectives.
-
           </p>
           <p style={{ paddingBottom: '15px'}}>
           Our dedication to excellence permeates every aspect of our work positioning us as a driving force, for 

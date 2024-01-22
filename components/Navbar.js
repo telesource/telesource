@@ -80,7 +80,7 @@ export default function Navbar() {
           <Link href="/data-miner" passHref><ListItem button><ListItemText primary="Data Miner" /></ListItem></Link>
           <Link href="/e-commerce-plugin" passHref><ListItem button><ListItemText primary="E-Commerce Plugin" /></ListItem></Link>
           <Link href="/whatsapp-solutions" passHref><ListItem button><ListItemText primary="WhatsApp Solutions" /></ListItem></Link>
-          <Link href="/chatbot" passHref><ListItem button><ListItemText primary="Chat Bot" /></ListItem></Link>
+          <Link href="/chatbot" passHref><ListItem button><ListItemText primary="ChatBot" /></ListItem></Link>
         </List>
       </Collapse>
       <ListItem button onClick={handleBusinessClick}>
@@ -145,7 +145,7 @@ export default function Navbar() {
         <Link href="/data-miner" passHref><MenuItem onClick={handleClose}>Data Miner</MenuItem></Link>
         <Link href="/e-commerce-plugin" passHref><MenuItem onClick={handleClose}>E-Commerce Plugin</MenuItem></Link>
         <Link href="/whatsapp-solutions" passHref><MenuItem onClick={handleClose}>WhatsApp Solutions</MenuItem></Link>
-        <Link href="/chatbot" passHref><MenuItem onClick={handleClose}>Chat Bot</MenuItem></Link>
+        <Link href="/chatbot" passHref><MenuItem onClick={handleClose}>ChatBot</MenuItem></Link>
       </Menu>
       <Button color="inherit" style={{backgroundColor: '#FFF', color: '#000', margin: 'auto 4px'}} endIcon={<ArrowDropDownIcon />} onClick={handleBusinessMenuClick}>
         Business
@@ -172,12 +172,12 @@ export default function Navbar() {
       </Menu>
       <Link href="/customer-stories" passHref><Button color="inherit" style={{backgroundColor: '#FFF', color: '#000', margin: 'auto 4px'}}>Customer Stories</Button></Link>
       <Link href="/contact-us" passHref><Button color="inherit" style={{backgroundColor: '#FFF', color: '#000', margin: 'auto 4px'}}>Contact Us</Button></Link>
-      <Link href="/contact-us" passHref><Button color="inherit" style={{backgroundColor: '#ec4a2f', color: '#FFF'}} variant="outlined" sx={{ ml: 2 }}>Book A Demo</Button></Link>
+      {/*<Link href="/contact-us" passHref><Button color="inherit" style={{backgroundColor: '#ec4a2f', color: '#FFF'}} variant="outlined" sx={{ ml: 2 }}>Book A Demo</Button></Link>*/}
     </Box>
   );
 
   return (
-    <AppBar position="static" style={{  backgroundColor: '#FFFFFF'}}>
+    <AppBar position="sticky" style={{ backgroundColor: '#FFFFFF', top: 0, zIndex: 1000 }}>
       <Toolbar>
         <Box sx={{ flexGrow: 1 }}>
           {/* Replace with your logo */}
@@ -185,9 +185,9 @@ export default function Navbar() {
           <Image 
             src="/images/telesourcenowlogo-black.png" // Route of the image file
             alt="TelesourceNow Logo"
-            width={100}  // Desired width
-            height={100} // Desired height
-            layout="responsive" // Makes the image responsive
+            width={200}  // Desired width
+            height={40} // Desired height
+            layout="fixed" // Makes the image responsive
             />
           </Link>
         </Box>

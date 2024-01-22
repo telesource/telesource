@@ -19,19 +19,19 @@ const MissionVision = () => {
     >
       <Grid container spacing={4} justifyContent="center" alignItems="center">
         <Grid item xs={12} md={6} style={{ textAlign: 'center' }}>
-          <MissionIcon fontSize="large"  style={{ color: '#6837f5', backgroundColor: '#FFF', borderRadius: '50%'}}  />
-          <h1>Our  Mission</h1>
-          <p>
-          TelesourceNow is committed to redefining communication standards by providing customer-centric solutions, 
-          fostering retail success, and enhancing corporate communication to empower businesses in today's dynamic market
-          </p>
-        </Grid>
-        <Grid item xs={12} md={6} style={{ textAlign: 'center' }}>
           <VisionIcon fontSize="large" style={{ color: '#6837f5', backgroundColor: '#FFF', borderRadius: '50%'}}   />
           <h1>Our  Vision</h1>
           <p>
           To be the go-to partner for businesses seeking exceptional customer experiences, innovative  solutions, 
           and unparalleled corporate communication strategies.
+          </p>
+        </Grid>
+        <Grid item xs={12} md={6} style={{ textAlign: 'center' }}>
+          <MissionIcon fontSize="large"  style={{ color: '#6837f5', backgroundColor: '#FFF', borderRadius: '50%'}}  />
+          <h1>Our  Mission</h1>
+          <p>
+          TelesourceNow is committed to redefining communication standards by providing customer-centric solutions, 
+          fostering retail success, and enhancing corporate communication to empower businesses in today's dynamic market
           </p>
         </Grid>
       </Grid>
