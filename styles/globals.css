@@ -58,8 +58,6 @@ h6 {
 
 h1 {
   font-size: 25px;
-  padding-top: 8px;
-  padding-bottom: 4px;
   color: #6837f5;
   text-transform: uppercase;
 }
@@ -67,7 +65,7 @@ h1 {
 h2 {
   font-size: 20px;
   padding-bottom: 8px;
-  color: #ec4a2f;
+  color: #084b8e;
   text-transform: capitalize;
 }
 

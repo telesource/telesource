@@ -50,7 +50,7 @@ export default function ContactUs() {
                 <h1 variant="h3" gutterBottom style={{ marginTop: '40px', fontSize: '18px' }}>
                   <RoomIcon /> Pune Address:-
                 </h1>
-                <p variant="body1">
+                <p style={{ padding: '2px 5px'}}>
                   Office No: 102BB, Turning Point NX S.No: 206/3, Plot No: 17, behind Phoenix Marketcity, Viman Nagar,
                   Pune - 411014
                 </p>
@@ -59,7 +59,7 @@ export default function ContactUs() {
                 <h1 variant="h3" gutterBottom style={{ marginTop: '40px', fontSize: '18px' }}>
                   <RoomIcon /> Bangalore Address: -
                 </h1>
-                <p variant="body1">
+                <p style={{ padding: '2px 5px'}}>
                   Office no. 404A Arvind Shambabhin Devrachikenhalli Sennappa Layout Bommanahalli Bangalore - 560068
                 </p>
               </div>
@@ -69,7 +69,7 @@ export default function ContactUs() {
                 <h1 variant="h3" gutterBottom style={{ marginTop: '40px', fontSize: '18px' }}>
                 <RoomIcon /> Gurugram Address:-
                 </h1>
-                <p variant="body1">
+                <p style={{ padding: '2px 5px'}}>
                 Office no.201, New Office Bajghera Road, Ward No.7, Rajendra Park, Palam Vihar, Gurugram, Haryana 122006
                 </p>
               </div>

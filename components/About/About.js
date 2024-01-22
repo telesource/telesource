@@ -8,7 +8,7 @@ export default function About() {
 
   return (
     <Box p={isSmallScreen ? 2 : 4}>
-      <Grid container spacing={4} alignItems="center">
+      <Grid container spacing={4}>
         <Grid item xs={12} md={6}>
           <h1>About Us</h1>
           <h2>WE ARE DIFFERENT</h2>

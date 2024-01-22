@@ -13,9 +13,9 @@ export default function DataMiner() {
     <Layout>
       <PageBanner />
       <Box p={isSmallScreen ? 2 : 4}>
-        <Grid container spacing={4} alignItems="center">
+        <Grid container spacing={4}>
           <Grid item xs={12} md={6}>
-            <h1 gutterBottom>DATA MINER</h1>
+          <h1 style={{ paddingBottom: "10px"}}>DATA MINER</h1>
             <h2>Utilizing Data Analytics and Visualization</h2>
             <p variant='p'>
               Introducing a platform that guarantees your data is utilized efficiently. This platform combines Excel 

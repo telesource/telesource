@@ -13,11 +13,14 @@ export default function DigitalMediaSolutions() {
     <Layout>
       <PageBanner />
       <Box p={isSmallScreen ? 2 : 4}>
-        <Grid container spacing={4} alignItems="center">
+        <Grid container spacing={4}>
           <Grid item xs={12} md={6}>
-            <h1>Conversational Gen-AI </h1>
+          <h1 style={{ paddingBottom: "10px"}}>Conversational Gen-AI </h1>
             <p>
-            Capture high-intent leads and drive more sales through automated conversations.          
+            Conversational AI enhances user experience by enabling natural, real-time interactions with 
+            machines, improving customer satisfaction and efficiency in various applications, from 
+            customer support to virtual assistants. It also streamlines processes, reducing response times 
+            and facilitating personalized communication for businesses.        
             </p>
           </Grid>
           <Grid item xs={12} md={6}>

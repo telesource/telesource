@@ -13,9 +13,9 @@ export default function EcommercePlugIn() {
     <Layout>
       <PageBanner />
       <Box p={isSmallScreen ? 2 : 4}>
-        <Grid container spacing={4} alignItems="center">
+        <Grid container spacing={4}>
           <Grid item xs={12} md={6}>
-            <h1 gutterBottom>E-Commerce Plugin</h1>
+          <h1 style={{ paddingBottom: "10px"}}>E-Commerce Plugin</h1>
             <p variant='p'>
           E Commerce Plugin is a versatile WordPress plugin that allows you to customize and enhance your WordPress 
           website with e commerce capabilities. By clicking a buttons your WordPress site can transform into a complete 

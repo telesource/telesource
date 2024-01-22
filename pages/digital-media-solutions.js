@@ -13,9 +13,9 @@ export default function DigitalMediaSolutions() {
     <Layout>
       <PageBanner />
       <Box p={isSmallScreen ? 2 : 4}>
-        <Grid container spacing={4} alignItems="center">
+        <Grid container spacing={4}>
           <Grid item xs={12} md={6}>
-            <h1>Digital Media Solution </h1>
+            <h1 style={{ paddingBottom: "10px"}}>Digital Media Solution </h1>
             <p>
             Seamless omni-channel customer connect & digital marketing to engage, convert, and grow. Conquer 
             every digital touchpoint and orchestrate your brand's digital symphony.

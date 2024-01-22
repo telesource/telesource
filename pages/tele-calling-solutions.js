@@ -13,9 +13,9 @@ export default function TeleCallingSolutions() {
     <Layout>
       <PageBanner />
       <Box p={isSmallScreen ? 2 : 4}>
-        <Grid container spacing={4} alignItems="center">
+        <Grid container spacing={4}>
           <Grid item xs={12} md={6}>
-            <h1>Tele-Calling Solutions</h1>
+          <h1 style={{ paddingBottom: "10px"}}>Tele-Calling Solutions</h1>
             <p>
             India’s most secure and transparent Tele-calling partner, with no fixed seat costs, 100% productivity, 
             best-in-class connectivity and powerful analytics.

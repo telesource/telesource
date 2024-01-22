@@ -185,8 +185,8 @@ export default function Navbar() {
           <Image 
             src="/images/telesourcenowlogo-black.png" // Route of the image file
             alt="TelesourceNow Logo"
-            width={200}  // Desired width
-            height={40} // Desired height
+            width={220}  // Desired width
+            height={60} // Desired height
             layout="fixed" // Makes the image responsive
             />
           </Link>

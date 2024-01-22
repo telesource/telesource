@@ -13,9 +13,9 @@ export default function IVerifier() {
     <Layout>
       <PageBanner />
       <Box p={isSmallScreen ? 2 : 4}>
-        <Grid container spacing={4} alignItems="center">
+        <Grid container spacing={4} >
           <Grid item xs={12} md={6}>
-            <h1 gutterBottom>I-VERIFIER</h1>
+          <h1 style={{ paddingBottom: "10px"}}>I-VERIFIER</h1>
             <h2>Instant Verification Solution</h2>
             <p>
             I Verifier is a tool that assists in verifying the authenticity of leads and ensures that the generated 

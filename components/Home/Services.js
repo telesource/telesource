@@ -35,7 +35,10 @@ const Services = () => {
             <TipsAndUpdatesIcon fontSize="large"  style={{ color: '#6837f5'}}  />
             <h2>Conversational Gen-AI</h2>
             <p>
-            Capture high-intent leads and drive more sales through automated conversations.
+            Conversational AI enhances user experience by enabling natural, real-time interactions with 
+            machines, improving customer satisfaction and efficiency in various applications, from 
+            customer support to virtual assistants. It also streamlines processes, reducing response times 
+            and facilitating personalized communication for businesses.
             </p>
           </Box>
         </Grid>
