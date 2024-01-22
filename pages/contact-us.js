@@ -92,21 +92,21 @@ export default function ContactUs() {
           </Grid>
           <Grid item xs={12} sm={6}>
             <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" textAlign="center">
-              <h1>Contact Us</h1>
+              <h1 style={{ paddingBottom: '15px'}}>Contact Us</h1>
               <form ref={form} onSubmit={sendEmail}>
                 <div style={{ display: 'flex', flexDirection: 'row' }}>
-                  <TextField label="First Name" name="first_name" fullWidth required size="small" style={{ marginLeft: '7px'}} />
-                  <TextField label="Last Name" name="last_name" fullWidth required size="small" style={{ marginLeft: '7px'}} />
+                  <TextField label="First Name" name="first_name" fullWidth required size="small" style={{ marginLeft: '3px', marginRight: '3px'}} />
+                  <TextField label="Last Name" name="last_name" fullWidth required size="small" style={{ marginLeft: '3px', marginRight: '3px'}} />
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'row' }}>
-                  <TextField label="Company Name" name="company_name" fullWidth margin="normal" required size="small" style={{ marginLeft: '7px'}} />
-                  <TextField label="Work Email" name="work_email" fullWidth margin="normal" required size="small" style={{ marginLeft: '7px'}} />
+                  <TextField label="Company Name" name="company_name" fullWidth margin="normal" required size="small" style={{ marginLeft: '3px', marginRight: '3px'}} />
+                  <TextField label="Work Email" name="work_email" fullWidth margin="normal" required size="small" style={{ marginLeft: '3px', marginRight: '3px'}} />
                 </div>
                 <div style={{ display: 'flex', flexDirection: 'row' }}>
-                  <TextField label="Mobile Number" name="mobile_number" fullWidth margin="normal" required  size="small" style={{ marginLeft: '7px'}}/>
-                  <TextField label="Services & Product" name="service_and_product" fullWidth margin="normal" size="small" style={{ marginLeft: '7px'}} />
+                  <TextField label="Mobile Number" name="mobile_number" fullWidth margin="normal" required  size="small" style={{ marginLeft: '3px', marginRight: '3px'}}/>
+                  <TextField label="Services & Product" name="service_and_product" fullWidth margin="normal" size="small" style={{ marginLeft: '3px', marginRight: '3px'}} />
                 </div>
-                <TextField label="Notes" name="notes" fullWidth margin="normal" multiline rows={1} />
+                <TextField label="Notes" name="notes" fullWidth margin="normal" multiline rows={1} style={{ marginLeft: '3px', marginRight: '3px'}} />
                 <Box display="flex" justifyContent="center" marginTop={2}>
                   <Button
                     type="submit"

@@ -16,6 +16,7 @@ export default function WhatsappSolutions() {
         <Grid container spacing={4}>
           <Grid item xs={12} md={6}>
           <h1 style={{ paddingBottom: "10px"}}>WhatsApp Solutions</h1>
+          <h2>A WhatsApp Marketing solution</h2>
             <p variant='p'>
           Discover a WhatsApp marketing solution that enables businesses to connect with an audience, foster strong 
           customer relationships and boost sales. Streamline message automation, through integration and empower agent 

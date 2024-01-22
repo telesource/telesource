@@ -10,10 +10,12 @@ export default function About() {
     <Box p={isSmallScreen ? 2 : 4}>
       <Grid container spacing={4}>
         <Grid item xs={12} md={6}>
-          <h1>About Us</h1>
-          <h2>WE ARE DIFFERENT</h2>
-          <p style={{ paddingBottom: '15px', paddingTop: '15px'}}>
-          Welcome to TelesourceNow, a provider of business services that is shaping the future with boundless possibilities.
+          <h1 style={{ paddingBottom: '15px'}}>About Us</h1>
+          
+          <h2 style={{ color: '#000'}}>WE ARE DIFFERENT</h2>
+          <p style={{ paddingBottom: '15px'}}>
+          Welcome to TelesourceNow, a provider of business services that is shaping the future with 
+          boundless possibilities.
           </p>
           <p style={{ paddingBottom: '15px'}}>
           We offer cutting edge technology enabled solutions to empower the worlds brands, in optimizing their 

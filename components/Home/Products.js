@@ -47,6 +47,7 @@ const ProductPage = () => {
         <Grid container style={{ backgroundColor: '#fff', padding: '10px'}}>
           <Grid item xs={12} md={6} style={{ padding: '10px', paddingTop: '40px'}}>
           <h1 variant="h4">E Commerce Plugin</h1>
+          <h2>Customisable E-Commerce plugin</h2>
           {/* <Typography variant='h6'>Customisable E-Commerce plugin</Typography> */}
           <p variant='p'>
           E Commerce Plugin is a versatile WordPress plugin that allows you to customize and enhance your WordPress 
@@ -76,6 +77,7 @@ const ProductPage = () => {
           </Grid>
           <Grid item xs={12} md={6} style={{ padding: '10px', paddingTop: '40px'}}>
           <h1 variant="h4">WhatsApp Solutions</h1>
+          <h2>A WhatsApp Marketing solution</h2>
           {/* <Typography variant='h6'>A WhatsApp Marketing solution</Typography> */}
           <p variant='p'>
           Discover a WhatsApp marketing solution that enables businesses to connect with an audience, foster strong 
@@ -86,7 +88,8 @@ const ProductPage = () => {
         </Grid>
         <Grid container  style={{ backgroundColor: '#fff', padding: '10px'}}>
           <Grid item xs={12} md={6} style={{ padding: '10px', paddingTop: '40px'}}>
-          <h1 variant="h4">Create Your Own Chatbot Flow</h1>
+          <h1 variant="h4"> Chatbot </h1>
+          <h2>Create Your Own Chatbot Flow</h2>
           {/* <Typography variant='h6'>Design your own chatbot flow</Typography> */}
           <p variant='p'>
           Craft unique chatbot flows to enhance customer engagement and streamline conversations. Seamlessly collect 

@@ -3,6 +3,7 @@ import About from './About'
 import Services from './Services'
 import Products from './Products'
 import Banner from './Banner'
+import Integration from './Integration'
 export const HomePage = () => {
   return (
     <>
@@ -10,6 +11,7 @@ export const HomePage = () => {
       <About />
       <Services />
       <Products />
+      <Integration />
     </>
   )
 }

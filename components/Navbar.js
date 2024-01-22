@@ -103,9 +103,9 @@ export default function Navbar() {
           <Link href="/automotive" passHref><ListItem button><ListItemText primary="Automotive" /></ListItem></Link>
         </List>
       </Collapse>
-      <Link href="/customer-stories" passHref><ListItem button><ListItemText primary="Customer Stories" /></ListItem></Link>
+      {/* <Link href="/customer-stories" passHref><ListItem button><ListItemText primary="Customer Stories" /></ListItem></Link> */}
       <Link href="/contact-us" passHref><ListItem button><ListItemText primary="Contact Us" /></ListItem></Link>
-      <Link href="/contact-us" passHref><ListItem button><ListItemText primary="Book A Demo" /></ListItem></Link>
+      {/* <Link href="/contact-us" passHref><ListItem button><ListItemText primary="Book A Demo" /></ListItem></Link> */}
     </List>
   );
 
@@ -170,7 +170,7 @@ export default function Navbar() {
         <Link href="/real-estate-and-infrastructure" passHref><MenuItem onClick={handleClose}>Real Estate & Infrastructure</MenuItem></Link>
         <Link href="/automotive" passHref><MenuItem onClick={handleClose}>Automotive</MenuItem></Link>
       </Menu>
-      <Link href="/customer-stories" passHref><Button color="inherit" style={{backgroundColor: '#FFF', color: '#000', margin: 'auto 4px'}}>Customer Stories</Button></Link>
+      {/* <Link href="/customer-stories" passHref><Button color="inherit" style={{backgroundColor: '#FFF', color: '#000', margin: 'auto 4px'}}>Customer Stories</Button></Link> */}
       <Link href="/contact-us" passHref><Button color="inherit" style={{backgroundColor: '#FFF', color: '#000', margin: 'auto 4px'}}>Contact Us</Button></Link>
       {/*<Link href="/contact-us" passHref><Button color="inherit" style={{backgroundColor: '#ec4a2f', color: '#FFF'}} variant="outlined" sx={{ ml: 2 }}>Book A Demo</Button></Link>*/}
     </Box>

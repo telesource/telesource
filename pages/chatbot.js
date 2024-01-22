@@ -16,6 +16,7 @@ export default function ChatBot() {
         <Grid container spacing={4}>
           <Grid item xs={12} md={6}>
           <h1 style={{ paddingBottom: "10px"}}>Create Your Own Chatbot Flow</h1>
+          <h2>Create Your Own Chatbot Flow</h2>
             <p variant='p'>
           Craft unique chatbot flows to enhance customer engagement and streamline conversations. Seamlessly collect 
           payments, through WhatsApp. Provide round the clock assistance to your customers and prospects. Our user 
