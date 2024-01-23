@@ -3,7 +3,7 @@ import { Box, Typography, Grid } from '@mui/material';
 
 const Banner = () => {
   const [typingText, setTypingText] = useState('');
-  const fullText = 'The Next Level Of Communication Platform.<br />Empowering enterprises.';
+  const fullText = ' The Next Level Of Communication Platform. <br />Empowering Enterprises. ';
   const typingSpeed = 100; // Speed of typing in milliseconds
   const resetDelay = 3000; // Delay before resetting the text
 
@@ -40,7 +40,7 @@ const Banner = () => {
     <Box
       sx={{
         position: 'relative',
-        height: 500, // Adjust as needed
+        height: 400, // Adjust as needed
         backgroundImage: 'linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url(/images/banner.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
