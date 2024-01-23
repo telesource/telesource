@@ -31,12 +31,12 @@ export default function ContactPage() {
   };
 
 
+
   return (
     <Layout>
       <PageBanner />
       <Box
         sx={{
-          position: 'relative',
           height: '80vh', // Adjust as needed
           backgroundImage: 'linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(/images/banner.png)',
           backgroundSize: 'cover',
