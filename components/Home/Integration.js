@@ -13,7 +13,7 @@ const Integration = () => {
             <h1 style={{ paddingBottom: '25px'}}> Integrations</h1>
         </div>
       <Grid container spacing={2} justifyContent="center">
-      <Grid item xs={12} sm={2}  style={{ padding: '10px'}}>
+      <Grid item xs={6} sm={2}  style={{ padding: '10px'}}>
           <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" textAlign="center">
           <Image 
             src="/images/slack.svg" // Route of the image file
@@ -24,7 +24,7 @@ const Integration = () => {
             />
           </Box>
         </Grid>
-        <Grid item xs={12} sm={2} style={{ padding: '10px'}}>
+        <Grid item xs={6} sm={2} style={{ padding: '10px'}}>
           <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" textAlign="center">
             <Image 
             src="/images/hubspot.svg" // Route of the image file
@@ -35,7 +35,7 @@ const Integration = () => {
             />
           </Box>
         </Grid>
-        <Grid item xs={12} sm={2}  style={{ padding: '10px'}}>
+        <Grid item xs={6} sm={2}  style={{ padding: '10px'}}>
           <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" textAlign="center">
           <Image 
             src="/images/calendly.svg" // Route of the image file
@@ -46,7 +46,7 @@ const Integration = () => {
             />
           </Box>
         </Grid>
-        <Grid item xs={12} sm={2}  style={{ padding: '10px'}}>
+        <Grid item xs={6} sm={2}  style={{ padding: '10px'}}>
           <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" textAlign="center">
           <Image 
             src="/images/airtable.svg" // Route of the image file
@@ -58,7 +58,7 @@ const Integration = () => {
           </Box>
         </Grid>
 
-        <Grid item xs={12} sm={2}  style={{ padding: '10px'}}>
+        <Grid item xs={6} sm={2}  style={{ padding: '10px'}}>
           <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" textAlign="center">
           <Image 
             src="/images/googlecalender.svg" // Route of the image file
@@ -69,7 +69,7 @@ const Integration = () => {
             />
           </Box>
         </Grid>
-        <Grid item xs={12} sm={2}  style={{ padding: '10px'}}>
+        <Grid item xs={6} sm={2}  style={{ padding: '10px'}}>
           <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" textAlign="center">
           <Image 
             src="/images/googlesheet.svg" // Route of the image file
@@ -80,7 +80,7 @@ const Integration = () => {
             />
           </Box>
         </Grid>
-        <Grid item xs={12} sm={2}  style={{ padding: '10px'}}>
+        <Grid item xs={6} sm={2}  style={{ padding: '10px'}}>
           <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" textAlign="center">
           <Image 
             src="/images/slaesforce.svg" // Route of the image file
@@ -91,7 +91,7 @@ const Integration = () => {
             />
           </Box>
         </Grid>
-        <Grid item xs={12} sm={2}  style={{ padding: '10px'}}>
+        <Grid item xs={6} sm={2}  style={{ padding: '10px'}}>
           <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" textAlign="center">
           <Image 
             src="/images/zapier.svg" // Route of the image file
@@ -102,7 +102,7 @@ const Integration = () => {
             />
           </Box>
         </Grid>
-        <Grid item xs={12} sm={2}  style={{ padding: '10px'}}>
+        <Grid item xs={6} sm={2}  style={{ padding: '10px'}}>
           <Box display="flex" flexDirection="column" alignItems="center" justifyContent="center" textAlign="center">
           <Image 
             src="/images/zoho.svg" // Route of the image file
