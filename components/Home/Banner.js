@@ -40,7 +40,7 @@ const Banner = () => {
     <Box
       sx={{
         position: 'relative',
-        height: 400, // Adjust as needed
+        height: 500, // Adjust as needed
         backgroundImage: 'linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.4)), url(/images/banner.png)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
