@@ -13,7 +13,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>TelesourceNow</title>
+        <title>AI-Driven Calling Solutions Augmented by Human Expertise</title>
         <link rel="icon" sizes="16x16" href="/telesource-fevicon.png" />
         <link rel="icon" sizes="32x32" href="/telesource-fevicon.png" />
 <       link rel="apple-touch-icon" sizes="180x180" href="/telesource-fevicon.png" />
