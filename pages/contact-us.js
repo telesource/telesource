@@ -84,7 +84,7 @@ export default function ContactUs() {
               <EmailIcon /> Email ID:-
             </h1>
             <p>
-              <a href="mailto:info@telesourcenow.com">info@telesourcenow.com</a>
+              <a href="mailto:sales@telesourcenow.com">sales@telesourcenow.com</a>
             </p>
               </div>
             </div>
