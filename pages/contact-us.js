@@ -16,7 +16,7 @@ export default function ContactUs() {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_qbqgv0q', 'template_e0hdxji', form.current, 'tAougbi2rsI1RqftQ')
+      .sendForm('service_o9924sz', 'template_l1bd19w', form.current, 'tAougbi2rsI1RqftQ')
       .then(
         (result) => {
           console.log(result.text);
@@ -119,7 +119,7 @@ export default function ContactUs() {
                   </Button>
                 </Box>
                 {message && (
-                  <div style={{ color: message === 'Message Sent Successfully' ? 'green' : 'red' }}>{message}</div>
+                  <div style={{ color: message === 'Message Sent Successfully' ? '' : 'green' }}>{message}</div>
                 )}
               </form>
             </Box>
