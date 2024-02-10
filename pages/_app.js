@@ -8,17 +8,8 @@
 
 import Head from 'next/head';
 import '../styles/globals.css';
-import { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }) {
-
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://assets.calendly.com/assets/external/widget.js';
-    script.async = true;
-    document.body.appendChild(script);
-  }, []);
-
   return (
     <>
       <Head>
