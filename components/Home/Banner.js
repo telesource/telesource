@@ -2,50 +2,29 @@ import React, { useState, useEffect } from 'react';
 import { Box, Typography, Grid } from '@mui/material';
 
 const Banner = () => {
-  const [typedSegments, setTypedSegments] = useState([]);
-  const segments = [
-    { type: 'text', content: 'The Next Level Of Communication Platform. Empowering Enterprises.' },
-  ];
+  const [typedText, setTypedText] = useState('');
+  const [charIndex, setCharIndex] = useState(0);
+  const fullText = 'The Next Level Of Communication Platform. Empowering Enterprises.';
   const typingSpeed = 100; // Speed of typing in milliseconds
-  const resetDelay = 3000; // Delay before starting to type again
+  const resetDelay = 3000; // Delay before starting to type again after the full text is displayed
 
   useEffect(() => {
-    let segmentIndex = 0;
-    let charIndex = 0;
-    let isCancelled = false;
+    if (charIndex < fullText.length) {
+      const timerId = setTimeout(() => {
+        setTypedText((typed) => typed + fullText[charIndex]);
+        setCharIndex((index) => index + 1);
+      }, typingSpeed);
 
-    const typeSegment = () => {
-      if (isCancelled) return;
+      return () => clearTimeout(timerId);
+    } else {
+      const timerId = setTimeout(() => {
+        setTypedText('');
+        setCharIndex(0);
+      }, resetDelay);
 
-      if (segments[segmentIndex].type === 'text' && charIndex < segments[segmentIndex].content.length) {
-        setTypedSegments((prev) =>
-          prev.map((seg, idx) => 
-            idx === segmentIndex ? { ...seg, content: segments[segmentIndex].content.slice(0, charIndex + 1) } : seg
-          )
-        );
-        charIndex++;
-        setTimeout(typeSegment, typingSpeed);
-      } else if (charIndex === segments[segmentIndex].content.length) {
-        setTimeout(() => { // After finishing a segment, wait for a bit before resetting
-          if (isCancelled) return;
-          setTypedSegments([]); // Clear the typed segments
-          segmentIndex = 0; // Reset segment index to start from the first segment
-          charIndex = 0; // Reset character index
-          typeSegment(); // Start typing again
-        }, resetDelay);
-      }
-    };
-
-    // Initialize typedSegments with the same structure as segments but empty text content
-    setTypedSegments(segments.map((seg) => (seg.type === 'text' ? { ...seg, content: '' } : seg)));
-
-    typeSegment();
-
-    // Cleanup function
-    return () => {
-      isCancelled = true;
-    };
-  }, []);
+      return () => clearTimeout(timerId);
+    }
+  }, [charIndex, typedText]);
 
   return (
     <Box
@@ -57,15 +36,13 @@ const Banner = () => {
         backgroundPosition: 'center',
         display: 'flex',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
       }}
     >
       <Grid container>
         <Grid item xs={12} md={12} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
           <Typography variant="h4" sx={{ p: 2, color: '#FFF' }}>
-            {typedSegments.map((segment, index) =>
-              segment.type === 'text' ? segment.content : segment.content
-            )}
+            {typedText}
           </Typography>
         </Grid>
       </Grid>
