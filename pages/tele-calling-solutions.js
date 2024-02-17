@@ -27,7 +27,7 @@ export default function TeleCallingSolutions() {
           <Grid item xs={12} md={6}>
             <div>
               <Image 
-                src="/images/telecalling.jpeg" // Route of the image file
+                src="/images/telecalling.webp" // Route of the image file
                 alt=""
                 width={500}  // Adjust width as needed
                 height={300} // Adjust height as needed

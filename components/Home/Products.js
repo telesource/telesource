@@ -17,7 +17,7 @@ const ProductPage = () => {
           </Grid>
           <Grid item xs={12} md={6} style={{ padding: '10px', paddingTop: '40px'}}>
             <Image 
-            src="/images/i-Verifier.jpeg" // Route of the image file
+            src="/images/i-Verifier.webp" // Route of the image file
             alt="i-Verifier"
             width={100}  // Desired width
             height={100} // Desired height
@@ -28,7 +28,7 @@ const ProductPage = () => {
         <Grid container style={{ backgroundColor: '#eee', padding: '10px'}}>          
         <Grid item xs={12} md={6} style={{ padding: '10px', paddingTop: '40px'}}>
             <Image 
-            src="/images/Data Mining.jpeg" // Route of the image file
+            src="/images/Data Mining.webp" // Route of the image file
             alt="Data Mining"
             width={100}  // Desired width
             height={100} // Desired height
@@ -57,7 +57,7 @@ const ProductPage = () => {
           </Grid>
           <Grid item xs={12} md={6} style={{ padding: '10px', paddingTop: '40px'}}>
             <Image 
-            src="/images/Ecommerce plugin.png" // Route of the image file
+            src="/images/Ecommerce plugin.webp" // Route of the image file
             alt="Ecommerce Plugin"
             width={100}  // Desired width
             height={100} // Desired height
@@ -68,7 +68,7 @@ const ProductPage = () => {
         <Grid container  style={{ backgroundColor: '#eee', padding: '10px'}}>
          <Grid item xs={12} md={6} style={{ padding: '10px', paddingTop: '40px'}}>
             <Image 
-            src="/images/Whatssap.png" // Route of the image file
+            src="/images/Whatssap.webp" // Route of the image file
             alt="Whatssap"
             width={100}  // Desired width
             height={100} // Desired height
@@ -99,7 +99,7 @@ const ProductPage = () => {
           </Grid>
           <Grid item xs={12} md={6} style={{ padding: '10px', paddingTop: '40px'}}>
             <Image 
-            src="/images/Chatbot.jpeg" // Route of the image file
+            src="/images/Chatbot.webp" // Route of the image file
             alt="Chatbot"
             width={100}  // Desired width
             height={100} // Desired height

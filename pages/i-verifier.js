@@ -25,7 +25,7 @@ export default function IVerifier() {
           <Grid item xs={12} md={6}>
             <div>
             <Image 
-            src="/images/i-Verifier.jpeg" // Route of the image file
+            src="/images/i-Verifier.webp" // Route of the image file
             alt="i-Verifier"
             width={100}  // Desired width
             height={100} // Desired height

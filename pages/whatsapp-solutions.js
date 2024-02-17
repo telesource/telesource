@@ -26,7 +26,7 @@ export default function WhatsappSolutions() {
           <Grid item xs={12} md={6}>
             <div>
             <Image 
-            src="/images/Whatssap.png" // Route of the image file
+            src="/images/Whatssap.webp" // Route of the image file
             alt="Whatssap"
             width={100}  // Desired width
             height={100} // Desired height

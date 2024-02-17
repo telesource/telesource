@@ -12,7 +12,7 @@ const MissionVision = () => {
       p={4}
       style={{
         color: 'white',
-        backgroundImage: 'linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(/images/Whatssap.png)',
+        backgroundImage: 'linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(/images/Whatssap.webp)',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         padding: '50px 10px'

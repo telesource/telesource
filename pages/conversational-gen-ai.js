@@ -26,7 +26,7 @@ export default function DigitalMediaSolutions() {
           <Grid item xs={12} md={6}>
             <div>
               <Image 
-                src="/images/conversationalai.jpg" // Route of the image file
+                src="/images/conversationalai.webp" // Route of the image file
                 alt="conversationalai"
                 width={500}  // Adjust width as needed
                 height={300} // Adjust height as needed

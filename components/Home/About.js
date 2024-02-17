@@ -31,8 +31,8 @@ export default function About() {
         <Grid item xs={12} md={6}>
         <div>
         <Image 
-            src="/images/home-about.jpg" // Route of the image file
-            alt="Description of the image"
+            src="/images/home-about.webp" // Route of the image file
+            alt="about telesource"
             width={100}  // Desired width
             height={100} // Desired height
             layout="responsive" // Makes the image responsive

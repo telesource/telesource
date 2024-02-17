@@ -30,7 +30,7 @@ export default function About() {
         <Grid item xs={12} md={6}>
         <div>
         <Image 
-            src="/images/home-about.jpg" // Route of the image file
+            src="/images/home-about.webp" // Route of the image file
             alt="Description of the image"
             width={100}  // Desired width
             height={100} // Desired height
