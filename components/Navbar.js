@@ -183,10 +183,10 @@ export default function Navbar() {
           {/* Replace with your logo */}
           <Link href="/">
           <Image 
-            src="/images/telesourcenowlogo-black.png" // Route of the image file
+            src="/images/telesourcenowlogonew.png" // Route of the image file
             alt="TelesourceNow Logo"
-            width={220}  // Desired width
-            height={60} // Desired height
+            width={290}  // Desired width
+            height={65} // Desired height
             layout="fixed" // Makes the image responsive
             />
           </Link>
