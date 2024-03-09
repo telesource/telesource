@@ -1,11 +1,12 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import { Grid, Box, Typography, Paper } from '@mui/material';
+import { Grid, Box, Container } from '@mui/material';
 import Image from 'next/image';
 
 const ProductPage = () => {
   return (
-    <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
+  <Container>
+        <Box display="flex" flexDirection="column" justifyContent="center" alignItems="center">
         <Grid container style={{ backgroundColor: '#FFFFFF', padding: '10px' }}>
           <Grid item xs={12} md={6}>
           <h1>I Verifier</h1>
@@ -17,6 +18,7 @@ const ProductPage = () => {
           </Grid>
           <Grid item xs={12} md={6} style={{ padding: '10px', paddingTop: '40px'}}>
             <Image 
+            style={{ borderRadius: "100px"}}
             src="/images/i-Verifier.webp" // Route of the image file
             alt="i-Verifier"
             width={100}  // Desired width
@@ -28,6 +30,7 @@ const ProductPage = () => {
         <Grid container style={{ backgroundColor: '#eee', padding: '10px'}}>          
         <Grid item xs={12} md={6} style={{ padding: '10px', paddingTop: '40px'}}>
             <Image 
+            style={{ borderRadius: "100px"}}
             src="/images/Data Mining.webp" // Route of the image file
             alt="Data Mining"
             width={100}  // Desired width
@@ -57,6 +60,7 @@ const ProductPage = () => {
           </Grid>
           <Grid item xs={12} md={6} style={{ padding: '10px', paddingTop: '40px'}}>
             <Image 
+            style={{ borderRadius: "100px"}}
             src="/images/Ecommerce plugin.webp" // Route of the image file
             alt="Ecommerce Plugin"
             width={100}  // Desired width
@@ -68,6 +72,7 @@ const ProductPage = () => {
         <Grid container  style={{ backgroundColor: '#eee', padding: '10px'}}>
          <Grid item xs={12} md={6} style={{ padding: '10px', paddingTop: '40px'}}>
             <Image 
+            style={{ borderRadius: "100px"}}
             src="/images/Whatssap.webp" // Route of the image file
             alt="Whatssap"
             width={100}  // Desired width
@@ -99,6 +104,7 @@ const ProductPage = () => {
           </Grid>
           <Grid item xs={12} md={6} style={{ padding: '10px', paddingTop: '40px'}}>
             <Image 
+            style={{ borderRadius: "100px"}}
             src="/images/Chatbot.webp" // Route of the image file
             alt="Chatbot"
             width={100}  // Desired width
@@ -108,6 +114,7 @@ const ProductPage = () => {
           </Grid>
         </Grid>
     </Box>
+  </Container>
   );
 };
 

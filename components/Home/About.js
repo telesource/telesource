@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Box, Button, useMediaQuery, useTheme } from '@mui/material';
+import { Grid, Box, Button, useMediaQuery, useTheme, Container } from '@mui/material';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -8,6 +8,7 @@ export default function About() {
   const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'));
 
   return (
+  <Container>
     <Box p={isSmallScreen ? 2 : 4}>
       <Grid container spacing={4} alignItems="center">
         <Grid item xs={12} md={6}>
@@ -20,7 +21,6 @@ export default function About() {
           We offer cutting edge technology enabled solutions to empower the worlds brands, in optimizing their operations 
           in sustainable ways all with the aim of achieving their business objectives.
           </p>
-
           <Link href='/about' passHref>
             <Button variant="contained" style={{ backgroundColor: '#6837f5', marginTop: '20px' }}>
               Read More
@@ -31,6 +31,7 @@ export default function About() {
         <Grid item xs={12} md={6}>
         <div>
         <Image 
+            style={{ borderRadius: "100px"}}
             src="/images/home-about.webp" // Route of the image file
             alt="about telesource"
             width={100}  // Desired width
@@ -41,5 +42,6 @@ export default function About() {
         </Grid>
       </Grid>
     </Box>
+  </Container>
   );
 }

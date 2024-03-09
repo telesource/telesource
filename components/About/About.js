@@ -1,5 +1,5 @@
 import React from 'react';
-import { Grid, Box, Typography, useMediaQuery, useTheme } from '@mui/material';
+import { Grid, Box, Container, useMediaQuery, useTheme } from '@mui/material';
 import Image from 'next/image';
 
 export default function About() {
@@ -8,6 +8,7 @@ export default function About() {
 
   return (
     <Box p={isSmallScreen ? 2 : 4}>
+      <Container>
       <Grid container spacing={4}>
         <Grid item xs={12} md={6}>
           <h1 style={{ paddingBottom: '15px'}}>About Us</h1>
@@ -30,6 +31,7 @@ export default function About() {
         <Grid item xs={12} md={6}>
         <div>
         <Image 
+        style={{ borderRadius: "100px"}}
             src="/images/home-about.webp" // Route of the image file
             alt="Description of the image"
             width={100}  // Desired width
@@ -39,6 +41,7 @@ export default function About() {
         </div>
         </Grid>
       </Grid>
+      </Container>
     </Box>
   );
 }

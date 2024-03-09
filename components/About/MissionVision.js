@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from 'react';
-import { Grid, Box, Typography, useTheme } from '@mui/material';
+import { Grid, Box, Container, useTheme } from '@mui/material';
 import MissionIcon from '@mui/icons-material/Flag'; // Replace with your preferred icon
 import VisionIcon from '@mui/icons-material/Visibility'; // Replace with your preferred icon
 
@@ -8,16 +8,18 @@ const MissionVision = () => {
   const theme = useTheme();
 
   return (
-    <Box
-      p={4}
-      style={{
-        color: 'white',
-        backgroundImage: 'linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(/images/Whatssap.webp)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        padding: '50px 10px'
-      }}
-    >
+  <Container
+  p={4}
+  style={{
+    color: 'white',
+    backgroundImage: 'linear-gradient(to right, rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(/images/Whatssap.webp)',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    padding: '50px 10px',
+    marginBottom: '50px'
+  }}
+  >
+    <Box>
       <Grid container spacing={4} justifyContent="center" alignItems="center">
         <Grid item xs={12} md={6} style={{ textAlign: 'center' }}>
           <VisionIcon fontSize="large"  
@@ -39,6 +41,7 @@ const MissionVision = () => {
         </Grid>
       </Grid>
     </Box>
+  </Container>
   );
 };
 
