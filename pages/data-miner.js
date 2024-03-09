@@ -25,6 +25,7 @@ export default function DataMiner() {
           <Grid item xs={12} md={6}>
             <div>
               <Image 
+              style={{ borderRadius: "100px"}}
               src="/images/Data Mining.webp" // Route of the image file
               alt="Data Mining"
               width={100}  // Desired width

@@ -25,6 +25,7 @@ export default function IVerifier() {
           <Grid item xs={12} md={6}>
             <div>
             <Image 
+            style={{ borderRadius: "100px"}}
             src="/images/i-Verifier.webp" // Route of the image file
             alt="i-Verifier"
             width={100}  // Desired width

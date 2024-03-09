@@ -26,6 +26,7 @@ export default function EcommercePlugIn() {
           <Grid item xs={12} md={6}>
             <div>
             <Image 
+            style={{ borderRadius: "100px"}}
             src="/images/Ecommerce plugin.webp" // Route of the image file
             alt="Ecommerce Plugin"
             width={100}  // Desired width

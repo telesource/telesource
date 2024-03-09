@@ -31,7 +31,7 @@ export default function About() {
         <Grid item xs={12} md={6}>
         <div>
         <Image 
-        style={{ borderRadius: "100px"}}
+            style={{ borderRadius: "100px"}}
             src="/images/home-about.webp" // Route of the image file
             alt="Description of the image"
             width={100}  // Desired width

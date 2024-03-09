@@ -26,6 +26,7 @@ export default function ChatBot() {
           <Grid item xs={12} md={6}>
             <div>
             <Image 
+            style={{ borderRadius: "100px"}}
             src="/images/Chatbot.webp" // Route of the image file
             alt="Chatbot"
             width={100}  // Desired width
